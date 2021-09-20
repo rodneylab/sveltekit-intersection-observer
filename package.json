@@ -1,5 +1,5 @@
 {
-  "name": "sveltekit-blog-mdx",
+  "name": "sveltekit-intersection-observer",
   "version": "1.0.0",
   "scripts": {
     "dev": "svelte-kit dev --port 3000",
@@ -50,10 +50,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rodneylab/sveltekit-seo"
+    "url": "https://github.com/rodneylab/sveltekit-intersection-observer"
   },
   "bugs": {
-    "url": "https://github.com/rodneylab/sveltekit-seo/issues"
+    "url": "https://github.com/rodneylab/sveltekit-intersection-observer/issues"
   },
   "type": "module"
 }

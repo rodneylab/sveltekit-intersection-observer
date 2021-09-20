@@ -1,6 +1,7 @@
 <script>
   import readingTime from 'reading-time';
   import BannerImage from '$lib/components/BannerImage.svelte';
+  import IntersectionObserver from '$lib/components/IntersectionObserver.svelte';
   import SEO from '$lib/components/SEO/index.svelte';
 
   export let imageData;
@@ -68,6 +69,12 @@
   ogSquareImage={ogSquareImageObject}
   twitterImage={twitterImageObject}
 />
-
+<IntersectionObserver />
 <BannerImage {imageData} />
-<h1>{title}</h1>
+<h1 class="heading">{title}</h1>
+
+<style lang="scss">
+  .heading {
+    margin-bottom: $spacing-12;
+  }
+</style>
