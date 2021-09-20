@@ -1,6 +1,6 @@
 {
-  "name": "SvelteKit Blog Mdx",
-  "short_name": "SvelteKit Blog",
+  "name": "SvelteKit Intersection Observer",
+  "short_name": "SvelteKit Intersection Observer",
   "start_url": "/index.html",
   "background_color": "#1b4079",
   "theme_color": "#d62828",
