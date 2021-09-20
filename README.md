@@ -20,7 +20,7 @@ SvelteKit demo code for using the Intersection Observer to help track page views
 If you're seeing this, you've probably already done this step. Congrats!
 
 ```bash
-git clone https://github.com/rodneylab/sveltekit-image-plugin.git sveltekit-intersection-observer
+git clone https://github.com/rodneylab/sveltekit-intersection-observer.git sveltekit-intersection-observer
 cd sveltekit-intersection-observer
 pnpm install # or npm install
 pnpm run dev
