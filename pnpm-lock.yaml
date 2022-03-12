@@ -6,7 +6,7 @@ specifiers:
   '@fontsource/lora': ^4.5.4
   '@fontsource/source-sans-pro': ^4.5.4
   '@sveltejs/adapter-static': ^1.0.0-next.29
-  '@sveltejs/kit': 1.0.0-next.232
+  '@sveltejs/kit': 1.0.0-next.295
   dayjs: ^1.10.8
   dotenv: ^16.0.0
   eslint: ^8.11.0
@@ -41,7 +41,7 @@ devDependencies:
   '@fontsource/lora': 4.5.4
   '@fontsource/source-sans-pro': 4.5.4
   '@sveltejs/adapter-static': 1.0.0-next.29
-  '@sveltejs/kit': 1.0.0-next.232_sass@1.49.9+svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.295_sass@1.49.9+svelte@3.46.4
   dayjs: 1.10.8
   dotenv: 16.0.0
   eslint: 8.11.0
@@ -179,8 +179,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.232_sass@1.49.9+svelte@3.46.4:
-    resolution: {integrity: sha512-STQ0hnJozIop8k9I313nwVasBIQ45Z2K1pUOkDVjCSOGijgsj+De5q0prQBtL1ZlqqisfkYlOf8W9gvDSyTLEA==}
+  /@sveltejs/kit/1.0.0-next.295_sass@1.49.9+svelte@3.46.4:
+    resolution: {integrity: sha512-4pO/swXByhU+7bhNikTjh1d4QxAMP9TZ74p7sdPuyJf5cg7Zrfk1nBtaMt0R+8+5j1xfC/XWRcxa3WnhT9bQMA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
