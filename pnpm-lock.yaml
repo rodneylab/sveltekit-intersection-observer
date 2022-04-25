@@ -5,8 +5,10 @@ specifiers:
   '@fontsource/lato': ^4.5.5
   '@fontsource/lora': ^4.5.6
   '@fontsource/source-sans-pro': ^4.5.6
+  '@iconify/svelte': ^2.2.1
   '@sveltejs/adapter-static': ^1.0.0-next.29
   '@sveltejs/kit': 1.0.0-next.295
+  '@types/object-hash': ^2.2.1
   dayjs: ^1.11.1
   dotenv: ^16.0.0
   eslint: ^8.14.0
@@ -29,7 +31,6 @@ specifiers:
   stylelint-scss: ^4.2.0
   svelte: ^3.47.0
   svelte-check: ^2.7.0
-  svelte-feather-icons: ^3.6.0
   svelte-preprocess: ^4.10.6
   svelte-preprocess-import-assets: ^0.1.6
   vanilla-lazyload: ^17.7.0
@@ -40,8 +41,10 @@ devDependencies:
   '@fontsource/lato': 4.5.5
   '@fontsource/lora': 4.5.6
   '@fontsource/source-sans-pro': 4.5.6
+  '@iconify/svelte': 2.2.1
   '@sveltejs/adapter-static': 1.0.0-next.29
   '@sveltejs/kit': 1.0.0-next.295_sass@1.50.1+svelte@3.47.0
+  '@types/object-hash': 2.2.1
   dayjs: 1.11.1
   dotenv: 16.0.0
   eslint: 8.14.0
@@ -64,7 +67,6 @@ devDependencies:
   stylelint-scss: 4.2.0_stylelint@14.7.1
   svelte: 3.47.0
   svelte-check: 2.7.0_a4d71c6348e3352db90951c26aeda246
-  svelte-feather-icons: 3.6.0
   svelte-preprocess: 4.10.6_a4d71c6348e3352db90951c26aeda246
   svelte-preprocess-import-assets: 0.1.6_svelte@3.47.0
   vanilla-lazyload: 17.7.0
@@ -142,6 +144,10 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@iconify/svelte/2.2.1:
+    resolution: {integrity: sha512-eWZq8CRrr3WfnKAj8SWknfE3S/d+j/AzEcypeJaHurS1s4zTdFnkjATcFa8lerGtcX0PAtXiVL94tbIEd69N+w==}
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
@@ -230,6 +236,10 @@ packages:
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
+    dev: true
+
+  /@types/object-hash/2.2.1:
+    resolution: {integrity: sha512-i/rtaJFCsPljrZvP/akBqEwUP2y5cZLOmvO+JaYnz01aPknrQ+hB5MRcO7iqCUsFaYfTG8kGfKUyboA07xeDHQ==}
     dev: true
 
   /@types/parse-json/4.0.0:
@@ -2487,12 +2497,6 @@ packages:
       - sass
       - stylus
       - sugarss
-    dev: true
-
-  /svelte-feather-icons/3.6.0:
-    resolution: {integrity: sha512-pdRmJwrYUxTI00uTJvGtrMoWXI56n4iX+7fBuxVG/TdBtnqZ8RlGPPvgXmH9+yGOMvWOF5SbZ7h4I+FiORbs2A==}
-    dependencies:
-      svelte: 3.47.0
     dev: true
 
   /svelte-hmr/0.14.11_svelte@3.47.0:
