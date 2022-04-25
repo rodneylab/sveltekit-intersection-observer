@@ -11,7 +11,7 @@
 
 # sveltekit-intersection-observer
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/rodneylab/sveltekit-intersection-observer)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/rodneylab/sveltekit-intersection-observer)
 
 SvelteKit demo code for using the Intersection Observer to help track page views. The code accompanies the <a aria-label="Open Rodney Lab blog post on tracking page views in Svelte Kit" href="https://rodneylab.com/tracking-page-views-sveltekit/">article on tracking page views in SvelteKit </a>. If you have any questions, please drop a comment at the bottom of that page.
 
