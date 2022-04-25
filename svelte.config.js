@@ -19,6 +19,7 @@ const config = {
     files: {
       hooks: 'src/hooks',
     },
+    prerender: { default: true },
     vite: {
       define: {
         'process.env.VITE_BUILD_TIME': JSON.stringify(new Date().toISOString()),
