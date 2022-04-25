@@ -69,9 +69,10 @@
   ogSquareImage={ogSquareImageObject}
   twitterImage={twitterImageObject}
 />
-<IntersectionObserver />
 <BannerImage {imageData} />
-<h1 class="heading">{title}</h1>
+<IntersectionObserver>
+  <h1 class="heading">{title}</h1>
+</IntersectionObserver>
 
 <style lang="scss">
   .heading {

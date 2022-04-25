@@ -6,10 +6,19 @@
     alert('Intersection Observer view event triggered');
   }
 
+  let container;
+
+  /**
+   * @type {IntersectionObserver}
+   */
   let observer;
 
   onMount(() => {
     if (browser) {
+      /**
+       * @param entries {IntersectionObserverEntry[]}
+       * @param observer {IntersectionObserver}
+       */
       const handleIntersect = (entries, observer) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
@@ -20,8 +29,7 @@
       };
       const options = { threshold: 1, rootMargin: '100% 0% -100%' };
       observer = new IntersectionObserver(handleIntersect, options);
-      const element = window.document.querySelector('main').firstElementChild;
-      observer.observe(element);
+      observer.observe(container);
     }
   });
 
@@ -31,3 +39,7 @@
     }
   });
 </script>
+
+<div bind:this={container}>
+  <slot />
+</div>
