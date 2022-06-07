@@ -1,6 +1,8 @@
 {
   "name": "sveltekit-intersection-observer",
   "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "description": "Tracking page views in SvelteKit: how you can add a view counter to your blog posts using the Intersection Observer API as a view trigger.",
   "scripts": {
     "dev": "svelte-kit dev --port 3000",
     "build": "npm run generate:manifest && svelte-kit build",
