@@ -4,9 +4,9 @@
   "license": "BSD-3-Clause",
   "description": "Tracking page views in SvelteKit: how you can add a view counter to your blog posts using the Intersection Observer API as a view trigger.",
   "scripts": {
-    "dev": "svelte-kit dev --port 3000",
-    "build": "npm run generate:manifest && svelte-kit build",
-    "preview": "svelte-kit preview --port 3000",
+    "dev": "vite dev --port 3030",
+    "build": "npm run generate:manifest && vite build",
+    "preview": "vite preview --port 3000",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "lint:scss": "stylelint \"src/**/*.{css,scss,svelte}\"",
     "check": "svelte-check --fail-on-hints",
@@ -24,33 +24,34 @@
     "@fontsource/source-sans-pro": "^4.5.10",
     "@iconify/svelte": "^2.2.1",
     "@sveltejs/adapter-static": "^1.0.0-next.34",
-    "@sveltejs/kit": "1.0.0-next.348",
+    "@sveltejs/kit": "1.0.0-next.401",
     "@types/object-hash": "^2.2.1",
     "dayjs": "^1.11.3",
     "dotenv": "^16.0.1",
     "eslint": "^8.17.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-svelte3": "^3.4.1",
+    "eslint-plugin-svelte3": "^4.0.0",
     "front-matter": "^4.0.2",
     "husky": "^8.0.1",
     "mdsvex": "^0.10.6",
     "object-hash": "^3.0.0",
     "postcss": "^8.4.14",
     "postcss-html": "^1.4.1",
-    "prettier": "~2.6.2",
+    "prettier": "~2.7.1",
     "prettier-plugin-svelte": "^2.7.0",
     "reading-time": "1.4.0",
     "sass": "^1.52.2",
     "sharp": "^0.30.6",
     "stylelint": "^14.8.5",
-    "stylelint-config-recommended-scss": "^6.0.0",
-    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-recommended-scss": "^7.0.0",
+    "stylelint-config-standard": "^26.0.0",
     "stylelint-scss": "^4.2.0",
     "svelte": "^3.48.0",
     "svelte-check": "^2.7.2",
     "svelte-preprocess": "^4.10.7",
     "svelte-preprocess-import-assets": "^0.1.6",
     "vanilla-lazyload": "^17.8.2",
+    "vite": "^3.0.4",
     "vite-imagetools": "^4.0.4"
   },
   "repository": {
@@ -60,5 +61,8 @@
   "bugs": {
     "url": "https://github.com/rodneylab/sveltekit-intersection-observer/issues"
   },
-  "type": "module"
+  "type": "module",
+  "peerDependencies": {
+    "vite": "^3.0.4"
+  }
 }
