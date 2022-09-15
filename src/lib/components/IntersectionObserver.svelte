@@ -1,6 +1,6 @@
 <script>
 	import { onMount, onDestroy } from 'svelte';
-	import { browser } from '$app/env';
+	import { browser } from '$app/environment';
 
 	function handleView() {
 		alert('Intersection Observer view event triggered');
