@@ -1,5 +1,4 @@
 <script>
-	import readingTime from 'reading-time';
 	import BannerImage from '$lib/components/BannerImage.svelte';
 	import IntersectionObserver from '$lib/components/IntersectionObserver.svelte';
 	import SEO from '$lib/components/SEO/index.svelte';
@@ -14,9 +13,9 @@
 		postTitle: title,
 		seoMetaDescription: metadescription,
 		slug,
+		timeToRead,
 	} = post;
 	const { ogImage, ogSquareImage, src: featuredImage, twitterImage } = imageData;
-	const timeToRead = Math.ceil(readingTime(post.body).minutes);
 
 	const breadcrumbs = [
 		{
