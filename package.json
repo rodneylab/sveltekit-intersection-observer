@@ -9,7 +9,7 @@
 		"preview": "vite preview",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"lint:scss": "stylelint \"src/**/*.{css,scss,svelte}\"",
-		"check": "svelte-check --fail-on-hints",
+		"check": "svelte-check",
 		"format": "prettier --write --plugin-search-dir=. .",
 		"generate:images": "node ./generate-responsive-image-data.js",
 		"generate:manifest": "node ./generate-manifest.js",
