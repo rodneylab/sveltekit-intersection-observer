@@ -3,8 +3,7 @@
 	import IntersectionObserver from '$lib/components/IntersectionObserver.svelte';
 	import SEO from '$lib/components/SEO/index.svelte';
 
-	export let imageData;
-	export let post;
+	let { imageData, post, sanitisedHtml } = $props();
 
 	const {
 		datePublished,
@@ -72,9 +71,11 @@
 <IntersectionObserver>
 	<h1 class="heading">{title}</h1>
 </IntersectionObserver>
+<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+{@html sanitisedHtml}
 
 <style lang="scss">
 	.heading {
-		margin-bottom: $spacing-12;
+		margin-bottom: variables.$spacing-12;
 	}
 </style>
