@@ -2,6 +2,8 @@
 	import { onMount, onDestroy } from 'svelte';
 	import { browser } from '$app/environment';
 
+	let { children } = $props();
+
 	function handleView() {
 		alert('Intersection Observer view event triggered');
 	}
@@ -41,5 +43,5 @@
 </script>
 
 <div bind:this={container}>
-	<slot />
+	{@render children?.()}
 </div>

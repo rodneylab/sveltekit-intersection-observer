@@ -9,8 +9,8 @@
 	import website from '$lib/config/website';
 
 	/** @type {import('./$types').PageData} */
-	export let data;
-	const { posts } = data;
+	let { data } = $props();
+	let { posts } = $derived(data);
 
 	const { author, siteUrl } = website;
 
@@ -83,6 +83,6 @@
 
 <style lang="scss">
 	header > h2 {
-		font-size: $font-size-3;
+		font-size: variables.$font-size-3;
 	}
 </style>
